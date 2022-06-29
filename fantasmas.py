@@ -49,7 +49,6 @@ def main():
 
 
 
-
     #llave = 4
     #matrizinicial[ (alto // 50)-1 ][ (ancho // 50)-1] = 4
     #matrizinicial[3][4] = 4
