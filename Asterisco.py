@@ -54,7 +54,7 @@ class Asterisco:
             mov_disp = []
 
             #Actualizar posocion link
-            if movements.get(mov_ordenados[1]) == "0":
+            if movements.get(mov_ordenados[0]) == "1":
                 matriz[link_y][link_x] += 1
                 link_x -= 1
             if movements.get(mov_ordenados[0]) == "d":
