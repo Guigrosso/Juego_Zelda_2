@@ -71,7 +71,6 @@ class Asterisco:
         self.mov = movimiento
 
 
-
     def calulo_manhatan(link_x, link_y, meta_x, meta_y):
         manhatan=math.ceil(math.fabs(link_x - meta_x)) + math.ceil(math.fabs(link_y - meta_y))
         return manhatan
