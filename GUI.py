@@ -73,5 +73,12 @@ class GUI:
         r2 = Radiobutton(raiz, text="Dificil",  value=0)
         r1.place(x=240, y=170)
         r2.place(x=240, y=195)
+        
+        
+        #dimensiones ventana
+        raiz.geometry('{}x{}+{}+{}'.format(350, 400, (raiz.winfo_screenwidth() // 2) - 150, (raiz.winfo_screenheight() // 2) - 200))
+        raiz.title("Zelda")
+        frame.pack()
+        raiz.tk.mainloop()
 
         
